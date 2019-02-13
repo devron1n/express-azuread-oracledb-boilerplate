@@ -1,0 +1,26 @@
+{
+  "name": "checklists",
+  "version": "1.0.0",
+  "description": "A Checklists Backend API",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node app.js",
+    "prod": "cross-env NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.severstal.severstalgroup.com/rnd/api/checklists.git"
+  },
+  "author": "Ruslan Ten <ra.ten@severstal.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "multer": "^1.4.1",
+    "oracledb": "^3.1.1",
+    "passport": "^0.4.0",
+    "passport-azure-ad": "^4.0.0",
+    "request": "^2.88.0"
+  }
+}
